@@ -1,3 +1,18 @@
+**Repository notes:** 
+- This library has been forked from https://github.com/zhouhan0126/WIFIMANAGER-ESP32
+- This library was tested with an ESP32-WROOM-32
+- Forked the original release (only version available at this time)
+- The core for the ESP32 used was version 1.0.4. May encounter errors if using a version less than 1.0.2. To update version, go to the board manager in the Arduino IDE, search for "ESP32", and install the desired version. 
+
+**Changes made to repository:**
+- In WiFiManager.cpp, changed 5 variable names from HTTP_HEAD to HTTP_HEAD_HTML. 
+- In WiFiManager.h, changed HTTP_HEAD to HTTP_HEAD_HTML (replaced 2 items, one of which was a commented out line). 
+- Notes have also been made within these files. 
+- Moved connectWifi function from private to public in header file
+
+**zhouhan0126's notes below:**
+
+
 # WiFiManager
 ESP32&&ESP8266 WiFi Connection manager with fallback web configuration portal
 
