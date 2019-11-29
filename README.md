@@ -1,8 +1,8 @@
 **Repository notes:** 
 - This library has been forked from https://github.com/zhouhan0126/WIFIMANAGER-ESP32
 - This library was tested with an ESP32-WROOM-32
-- Forked the original release (only version available at this time)
-- The core for the ESP32 used was version 1.0.4. May encounter errors if using a version less than 1.0.2. To update version, go to the board manager in the Arduino IDE, search for "ESP32", and install the desired version. 
+- Forked zhouhan0126's original release (only version available at this time)
+- The core for the ESP32 used was version 1.0.4. May encounter errors if using a version less than 1.0.2. To update the version, go to the board manager in the Arduino IDE, search for "ESP32", and install the desired version. 
 
 **Changes made to repository:**
 - Replaced WiFiManager.cpp and WiFiManager.h files with modified versions
